@@ -16,7 +16,7 @@ public class EmployeePanel extends JPanel {
 	}
 	
 	private void initialize() {
-		setLayout(new GridLayout(7,1,20,20));
+		setLayout(new GridLayout(7,1,10,10));
 		setBorder(new EmptyBorder(10,10,10,10));
 		
 		JButton empsWAccts = new JButton("View Employees With Accounts");
